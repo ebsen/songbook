@@ -9,5 +9,23 @@ html
     link(rel="stylesheet", href="styles/main.css")
   
   body
-    #page
-      != yield
+
+    #layout
+      a#menuLink.menu-link(href="#menu")
+        span
+
+      #menu
+        .pure-menu.pure-menu.open
+          a.pure-menu-heading(href="#") Songs
+          ul.navigation
+            each song in songs
+              //- li classes: menu-item-divided pure-menu-selected
+              li: a(href="##{song.id}") #{song.title}
+
+      #main 
+        .header
+          h1 Christian Songs
+          h2 for Little Children
+        != yield
+        
+    script(src="scripts/ui.js")
