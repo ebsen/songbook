@@ -1,0 +1,25 @@
+h1 Christian Songs
+h2 for Little Children
+
+hr
+
+h3 Songs
+ul.navigation
+  each song in songs
+    li: a(href="##{song.id}") #{song.title}
+
+hr
+
+each song in songs
+  h4(id="#{song.id}") #{song.title}
+  if song.chorusFirst
+    ul.chorus
+      each line in song.chorus
+        li #{line}
+  each verse in song.verses
+    ul.verse
+      each line in verse
+        li #{line}
+    ul.chorus
+      each line in song.chorus
+        li #{line}

@@ -1,0 +1,12 @@
+{
+  "name": "songbook",
+  "description": "Christian songs for little children",
+  "author": "Erik Ebsen <erik.ebsen@me.com>",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^1.7.2",
+    "gulp": "^3.8.10",
+    "gulp-debug": "^1.0.1",
+    "harp": "^0.14.0"
+  }
+}

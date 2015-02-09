@@ -1,0 +1,166 @@
+{
+  "globals": {
+    "name"        : "songbook",
+    "description" : "Christian songs for little children",
+    "songs": [
+      {
+        "title": "I'll Fly Away",
+        "id": "fly-away",
+        "chorus": [
+          "I'll fly away, oh glory",
+          "I'll fly away in the morning",
+          "When I die, hallelujah, by and by",
+          "I'll fly away"
+        ],
+        "verses": [
+          [
+            "Some glad morning, when this life is o'er",
+            "I'll fly away",
+            "To a home on God's celestial shore",
+            "I'll fly away"
+          ],
+          [
+            "When the shadows of this life have gone",
+            "I'll fly away",
+            "Like a bird from prison bars has flown",
+            "I'll fly away"
+          ],
+          [
+            "Just a few more weary days and then",
+            "I'll fly away",
+            "To a land where joy shall never end",
+            "I'll fly away"
+          ]
+        ]
+      },
+      {
+        "title": "Go Tell It On The Mountain",
+        "id": "go-tell-it",
+        "chorus": [
+          "Go tell it on the mountain",
+          "Over the hills and everywhere",
+          "Go tell it on the mountain",
+          "That Jesus Christ is born"
+        ],
+        "chorusFirst": true,
+        "verses": [
+          [
+            "While sheperds kept their watching",
+            "O'er silent flocks by night",
+            "Behold throughout the heavens",
+            "There shown a holy light"
+          ],
+          [
+            "The shepherds feared and trembled",
+            "When lo! above the earth",
+            "Rang out the angel chorus",
+            "That hailed our Savior's birth"
+          ],
+          [
+            "Down in a lowly manger",
+            "The humble Christ was born",
+            "And brought us God's salvation",
+            "That blessed Christmas morn"
+          ]
+        ]
+      },
+      {
+        "title": "Deep and Wide",
+        "id": "deep-and-wide",
+        "chorus": [],
+        "verses": [
+          [
+            "Deep and wide, deep and wide",
+            "There's a fountain flowing deep and wide",
+            "Deep and wide, deep and wide",
+            "There's a fountain flowing deep and wide"
+          ],
+          [
+            "Wide and deep, wide and deep",
+            "There's a fountain flowing wide and deep",
+            "Wide and deep, wide and deep",
+            "There's a fountain flowing wide and deep"
+          ]
+        ]
+      },
+      {
+        "title": "This Little Light of Mine",
+        "id": "this-little-light",
+        "chorus": [
+          "Let it shine!",
+          "Let it shine!",
+          "Let it shine!"
+        ],
+        "verses": [
+          [
+            "This little light of mine, I'm gonna let it shine",
+            "This little light of mine, I'm gonna let it shine",
+            "This little light of mine, I'm gonna let it shine"
+          ],
+          [
+            "Hide it under a bushel? No! I'm gonna let it shine",
+            "Hide it under a bushel? No! I'm gonna let it shine",
+            "Hide it under a bushel? No! I'm gonna let it shine"
+          ],
+          [
+            "All around the neighborhood, I'm gonna let it shine",
+            "All around the neighborhood, I'm gonna let it shine",
+            "All around the neighborhood, I'm gonna let it shine"
+          ],
+          [
+            "Don't let Satan poof it out, I'm gonna let it shine",
+            "Don't let Satan poof it out, I'm gonna let it shine",
+            "Don't let Satan poof it out, I'm gonna let it shine"
+          ],
+          [
+            "Let it shine til Jesus comes! I'm gonna let it shine",
+            "Let it shine til Jesus comes! I'm gonna let it shine",
+            "Let it shine til Jesus comes! I'm gonna let it shine"
+          ]
+        ]
+      },
+      {
+        "title": "The B-I-B-L-E",
+        "id": "bible",
+        "chorus": [
+          "",
+          "",
+          ""
+        ],
+        "verses": [
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "It is Well",
+        "id": "it-is-well",
+        "chorus": [
+          "",
+          "",
+          ""
+        ],
+        "verses": [
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  }
+}
