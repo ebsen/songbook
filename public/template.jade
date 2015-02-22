@@ -1,0 +1,14 @@
+//- Need to figure out how to pass an indivdual song here
+each song in songs
+    h2.content-subhead(id="#{song.id}") #{song.title}
+    if song.chorusFirst
+      ul.chorus
+        each line in song.chorus
+          li #{line}
+    each verse in song.verses
+      ul.verse
+        each line in verse
+          li #{line}
+      ul.chorus
+        each line in song.chorus
+          li #{line}

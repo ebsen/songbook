@@ -1,2 +1,6 @@
 - uncss the CSS
 - implement Yahoo's Pure
+- dismiss menu on clicking title
+- increase navigation width
+- replace main.less with contents of side-menu.css
+- factor out index into individual pages with Jade partials (remove outer `each` loop, apply template to just the one song)
