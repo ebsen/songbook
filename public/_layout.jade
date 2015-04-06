@@ -20,7 +20,8 @@ html
           ul.navigation
             each song in songs
               //- li classes: menu-item-divided pure-menu-selected
-              li: a(href="##{song.id}") #{song.title}
+              li
+                a(href="##{song.id}") #{song.title}
 
       #main 
         .header
