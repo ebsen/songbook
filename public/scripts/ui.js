@@ -41,7 +41,7 @@
       // e.preventDefault();
       toggleClass(layout, active); // this toggles the menu
       // toggleClass(menu, active);
-      // toggleClass(menuLink, active);
+      toggleClass(menuLink, active);
     }
   }
 
