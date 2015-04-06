@@ -9,8 +9,17 @@
 @menu_width: 250px;
 @hamburger_width: 2em;
 
+// COLORS
+// #'s: 333, 777, 888, 999, ccc, eee, fff
+// By default, text had been #777
+@black: #333;
+@grey: #888;
+@grey_light: #999;
+
+
 body {
-  color: #777;
+  // color: #777;
+  color: @black;
   font-family: 'Libre Baskerville', serif;
   margin: 0;
 }
@@ -118,7 +127,8 @@ The content `<div>` is where all your content goes.
   }
   h2 {
     font-weight: 300;
-    color: #ccc;
+    // color: #ccc;
+    color: @grey_light;
     padding: 0;
     margin-top: 0;
   }
@@ -139,7 +149,8 @@ The content `<div>` is where all your content goes.
   // margin: 50px 0 20px 0;
   padding: 50px 0 20px 0;
   font-weight: 300;
-  color: #888;
+  // color: #888;
+  color: @grey;
 }
 
 
