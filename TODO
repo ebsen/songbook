@@ -1,3 +1,9 @@
+April 6, 2015
+- Hanging indent: Apply left padding and negative text-indent.
+- Get 'Songs' and menuLink button the same height. (Probably tighten Songs rather than button).
+- Move entire navigation to left.
+
+Older notes:
 - uncss the CSS
 - implement Yahoo's Pure
 - dismiss menu on clicking title
