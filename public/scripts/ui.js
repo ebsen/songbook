@@ -13,7 +13,7 @@
 
     for(; i < length; i++) {
       if (classes[i] === className) {
-        classes.splice(i, 1);
+        classes.splice(i, 1); // removes this element from array
         break;
       }
     }
