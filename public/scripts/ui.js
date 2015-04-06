@@ -2,9 +2,10 @@
 
   var layout   = document.getElementById('layout'),
       menu     = document.getElementById('menu'),
-      menuLink = document.getElementById('menuLink');
-      songs    = menu.getElementsByTagName('li');
-      // songs    = menu.getElementsByClassNames('navigation');
+      menuLink = document.getElementById('menuLink'),
+      homeLink = document.getElementById('homeLink'),
+      songs    = menu.getElementsByTagName('li'),
+      active   = 'active';
 
   function toggleClass (element, className) {
     var classes = element.className.split(/\s+/),
@@ -25,24 +26,26 @@
     element.className = classes.join(' ');
   }
 
+  function navigate (e) {
+    // e.preventDefault();
+    toggleClass(layout, active); // this toggles the menu
+    // toggleClass(menu, active);
+    toggleClass(menuLink, active);
+  }
+
   menuLink.onclick = function (e) {
-    var active = 'active';
+    // var active = 'active';
 
     e.preventDefault();
     toggleClass(layout, active);
     toggleClass(menu, active);
     toggleClass(menuLink, active);
   };
-  for (var j = 0; j < songs.length; j++) {
-    songs[j].onclick = function (e) {
-      var active = 'active';
 
-      // console.log('Odelay!');
-      // e.preventDefault();
-      toggleClass(layout, active); // this toggles the menu
-      // toggleClass(menu, active);
-      toggleClass(menuLink, active);
-    }
+  // Custom event handlers for our navigation items
+  homeLink.onclick = navigate;
+  for (var j = 0; j < songs.length; j++) {
+    songs[j].onclick = navigate;
   }
 
 }(this, this.document));
