@@ -5,7 +5,7 @@ html
     title Christian Songs for Little Children
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     //- Stylesheets and things
-    link(rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css")
+    link(rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css")
     link(rel="stylesheet", href="styles/main.css")
   
   body
@@ -15,13 +15,13 @@ html
         span
 
       #menu
-        .pure-menu.pure-menu-open
+        .pure-menu
           a#homeLink.pure-menu-heading(href="/") Songs
-          ul.navigation
+          ul.pure-menu-list.navigation
             each song in songs
               //- li classes: menu-item-divided pure-menu-selected
-              li
-                a(href="##{song.id}") #{song.title}
+              li.pure-menu-item
+                a.pure-menu-link(href="##{song.id}") #{song.title}
 
       #main 
         .header
