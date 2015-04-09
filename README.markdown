@@ -14,10 +14,12 @@ These instructions assume you have [Git] and [Node] already installed.
 5. Run `gulp serve` to spin up a local copy of the site or `gulp commands` to see what else is available.
 4. Write code!
 
-
+### Getting (More) Started
+These instructions broadly share information from the instructions for our starter template, [static-boilerplate]. The instructions there contain more thorough, detailed notes on what's going on here.
 
 [BrowserSync]: http://www.browsersync.io/
 [Git]: http://git-scm.com/
 [Gulp]: http://gulpjs.com/
 [Harp]: http://harpjs.com/
 [Node]: http://nodejs.org/
+[static-boilerplate]: https://github.com/SDState/static-boilerplate
