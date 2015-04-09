@@ -1,12 +1,3 @@
-April 6, 2015
-- Hanging indent: Apply left padding and negative text-indent.
-- Get 'Songs' and menuLink button the same height. (Probably tighten Songs rather than button).
-- Move entire navigation to left.
-
-Older notes:
-- uncss the CSS
-- implement Yahoo's Pure
-- dismiss menu on clicking title
-- increase navigation width
-- replace main.less with contents of side-menu.css
-- factor out index into individual pages with Jade partials (remove outer `each` loop, apply template to just the one song)
+April 8, 2015
+- Move entire navigation to left side
+- Refactor CSS according to SMACSS (branch started)
