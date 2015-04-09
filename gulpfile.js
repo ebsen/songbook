@@ -38,5 +38,6 @@ gulp.task('serve', function () {
   });
 });
 
+gulp.task('build', ['compile']);
 gulp.task('default', ['serve']);
 gulp.task('server', ['serve']);
