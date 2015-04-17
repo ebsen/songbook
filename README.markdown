@@ -1,12 +1,14 @@
-# Christian Songs
-## for Little Children
+# Christian Songs for Little Children
 
-A collection of songs we sing with the kids in case someone doesn't have a paper copy handy. :-)
+A collection of songs we sing with the kids on Sundays. This is in case someone doesn't have a paper copy handy.
 
 ## Getting Started
-This project uses a triumvirate of [Gulp], [Harp], and [BrowserSync]. It is some lovely stuff.
+### In case you wanna hack on this yourself or you're curious how it's put together
+This project relies on three lovely tools: [Gulp], [Harp], and [BrowserSync].
 
 These instructions assume you have [Git] and [Node] already installed.
+
+Steps 1, 2, and 3 only need done once.
 
 1. If it isn't already, install [Gulp] from the command line with `npm install -g gulp`.
 2. Clone this repository (`git clone https://github.com/ebsen/songbook.git`) and change to the newly created sub-directory (`cd songbook`).
@@ -14,7 +16,7 @@ These instructions assume you have [Git] and [Node] already installed.
 5. Run `gulp serve` to spin up a local copy of the site or `gulp commands` to see what else is available.
 4. Write code!
 
-### Getting (More) Started
+## Getting (More) Started
 These instructions broadly share information from the instructions for our starter template, [static-boilerplate]. The instructions there contain more thorough, detailed notes on what's going on here.
 
 [BrowserSync]: http://www.browsersync.io/
