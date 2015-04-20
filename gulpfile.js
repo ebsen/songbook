@@ -32,7 +32,7 @@ gulp.task('serve', function () {
     gulp.watch('public/**/*.js', function () {
       browserSync.reload('main.js', { stream: true });
     });
-    gulp.watch('public/**/*.jade', function () {
+    gulp.watch(['public/**/*.jade', 'harp.json'], function () {
       browserSync.reload();
     });
   });
