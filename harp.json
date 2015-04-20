@@ -120,14 +120,14 @@
       {
         "title": "The B-I-B-L-E",
         "id": "bible",
-        "chorus": [
-          "The B-I-B-L-E,",
-          "Yes, that's the book for me!",
-          "I stand alone on Word of God,",
-          "The B-I-B-L-E!"
-        ],
+        "chorus": [],
         "verses": [
-          []
+          [
+            "The B-I-B-L-E,",
+            "Yes, that's the book for me!",
+            "I stand alone on Word of God,",
+            "The B-I-B-L-E!"
+          ]
         ]
       },
       {
