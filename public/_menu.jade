@@ -1,0 +1,15 @@
+a#menuLink.menu-link(href="#menu")
+  span
+
+#menu
+  .pure-menu
+    a#homeLink.pure-menu-heading(href="/") Songs
+    ul.pure-menu-list.navigation
+      each song in songs
+        //- li classes: menu-item-divided pure-menu-selected
+        li.pure-menu-item
+          a.pure-menu-link(href="##{song.id}") #{song.title}
+    .menu-info
+      //- p Songs are in the public domain. 
+      p 
+        a(href="https://github.com/ebsen/songbook" target="blank") Source code available on GitHub.

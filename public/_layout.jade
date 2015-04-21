@@ -9,19 +9,8 @@ html
     link(rel="stylesheet", href="styles/main.css")
   
   body
-
     #layout
-      a#menuLink.menu-link(href="#menu")
-        span
-
-      #menu
-        .pure-menu
-          a#homeLink.pure-menu-heading(href="/") Songs
-          ul.pure-menu-list.navigation
-            each song in songs
-              //- li classes: menu-item-divided pure-menu-selected
-              li.pure-menu-item
-                a.pure-menu-link(href="##{song.id}") #{song.title}
+      != partial("_menu")
 
       #main 
         .header
@@ -30,4 +19,4 @@ html
         .content
           != yield
         
-    script(src="scripts/ui.js")
+    != partial("_scripts")
