@@ -18,7 +18,7 @@ You'll only need to run the above commands once.
 
 Once that's done, you can do a few things with this project:
 - To start a local server on your machine for previewing this website, run `gulp serve` in the directory where you first cloned this project above.
-- The command `gulp build` (or `gulp compile`) builds a complete copy of the site to upload to a web serve.
+- The command `gulp build` (or `gulp compile`) builds a complete copy of the site to upload to a web server.
 - Run `gulp commands` to see what else is available.
 
 ### Getting (More) Started
